@@ -2,11 +2,10 @@
   "name": "show-host-name",
   "description": "View your hostname",
   "version": "1.5",
-  "homepage_url": "",
+  "homepage_url": "https://github.com/hursit/chrome-show-hostname-extension",
   "manifest_version": 2,
   "author": "Hurşit Topal",
   "icons": {
-    "16": "data/icon-16.png",
     "32": "data/icon-32.png",
     "64": "data/icon-64.png",
     "128": "data/icon-128.png"
@@ -21,5 +20,9 @@
     }
   },
   "permissions": [
+    "cookies",
+    "tabs",
+    "http://*/*",
+    "https://*/*"
   ]
 }
