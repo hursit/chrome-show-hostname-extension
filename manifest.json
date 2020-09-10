@@ -1,0 +1,25 @@
+{
+  "name": "show-host-name",
+  "description": "View your hostname",
+  "version": "1.5",
+  "homepage_url": "",
+  "manifest_version": 2,
+  "author": "Hurşit Topal",
+  "icons": {
+    "16": "data/icon-16.png",
+    "32": "data/icon-32.png",
+    "64": "data/icon-64.png",
+    "128": "data/icon-128.png"
+  },
+  "browser_action": {
+    "default_title": "Display your hostname",
+    "default_popup": "data/index.html",
+    "default_icon": {
+      "32": "data/icon-32.png",
+      "64": "data/icon-64.png",
+      "128": "data/icon-128.png"
+    }
+  },
+  "permissions": [
+  ]
+}
